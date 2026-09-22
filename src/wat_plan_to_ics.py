@@ -2,7 +2,7 @@
 """
 WAT WEL: plan zajęć (HTML) -> kalendarz ICS do subskrypcji na iPhonie.
 
-Pobiera stronę planu (np. plan prowadzącego dr. inż. Dominika Małego), parsuje
+Pobiera stronę planu, parsuje
 tabelę (daty w kolumnach, bloki godzinowe w wierszach, colspan/rowspan)
 i zapisuje plik .ics z jawną strefą Europe/Warsaw.
 
