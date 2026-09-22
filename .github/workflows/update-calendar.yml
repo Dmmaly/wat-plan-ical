@@ -1,0 +1,42 @@
+name: Aktualizuj kalendarz WAT (ICS)
+
+on:
+  schedule:
+    - cron: "0 4 * * 1"      # poniedziałek 04:00 UTC = 06:00 czasu PL (lato) / 05:00 (zima)
+  workflow_dispatch: {}       # ręczne uruchomienie: Actions -> Run workflow
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - run: pip install -r requirements.txt
+
+      - name: Pobierz plan i wygeneruj ICS
+        run: python src/wat_plan_to_ics.py --plan "dr_inz._Maly_Dominik" --out docs/plan.ics --min-events 1
+
+      - name: Commit, jeśli plan się zmienił
+        run: |
+          if git diff --quiet -- docs/plan.ics && git ls-files --error-unmatch docs/plan.ics >/dev/null 2>&1; then
+            echo "Brak zmian w planie."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/plan.ics
+          git commit -m "auto: aktualizacja planu $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
