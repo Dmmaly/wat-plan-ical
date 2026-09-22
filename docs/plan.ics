@@ -27,189 +27,6 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:20250805-cd2ce32a038f@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250805T133000
-DTEND;TZID=Europe/Warsaw:20250805T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250812-ec16ddde107b@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250812T133000
-DTEND;TZID=Europe/Warsaw:20250812T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250819-9b5366563fa0@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250819T133000
-DTEND;TZID=Europe/Warsaw:20250819T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250826-65439d48863d@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250826T133000
-DTEND;TZID=Europe/Warsaw:20250826T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250902-0dd4e4d244ef@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250902T133000
-DTEND;TZID=Europe/Warsaw:20250902T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250909-e1429d1d5d43@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250909T133000
-DTEND;TZID=Europe/Warsaw:20250909T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250916-eaadc5b60748@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250916T133000
-DTEND;TZID=Europe/Warsaw:20250916T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250917-9a47509e5d6d@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250917T095000
-DTEND;TZID=Europe/Warsaw:20250917T112500
-SUMMARY:Rspr (Zp.) · WEL24EQ1S1\, WEL24EQ2S1\, WEL24EQ3S1 · s. 2\, bud. 4
- 5
-LOCATION:s. 2\, bud. 45
-DESCRIPTION:Remote sensing principles\nTyp: zaliczenie poprawkowe\nGrupa: W
- EL24EQ1S1\, WEL24EQ2S1\, WEL24EQ3S1\nSala: s. 2\, bud. 45 (w planie: 2 45)
- \nŹródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Do
- minik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250919-459a8017f565@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250919T160000
-DTEND;TZID=Europe/Warsaw:20250919T173500
-SUMMARY:Rspr (Zp.) · WEL24EX1N1 · s. 108\, bud. 80
-LOCATION:s. 108\, bud. 80
-DESCRIPTION:Remote sensing principles\nTyp: zaliczenie poprawkowe\nGrupa: W
- EL24EX1N1\nSala: s. 108\, bud. 80 (w planie: 108 80)\nŹródło: https://w
- el.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250923-32c42ff7148e@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250923T133000
-DTEND;TZID=Europe/Warsaw:20250923T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250924-f740ddffd3b6@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250924T095000
-DTEND;TZID=Europe/Warsaw:20250924T112500
-SUMMARY:Ptd (Zp.) · WEL23EV1S0\, WEL23EL1S0\, WEL23EL2S0\, WEL23EL3S0\, WE
- L23EE1S0\, WEL23EN1S0\, WEL23EA1S0 · s. 3.8\, bud. 75
-LOCATION:s. 3.8\, bud. 75
-DESCRIPTION:Podstawy teledetekcji\nTyp: zaliczenie poprawkowe\nGrupa: WEL23
- EV1S0\, WEL23EL1S0\, WEL23EL2S0\, WEL23EL3S0\, WEL23EE1S0\, WEL23EN1S0\, W
- EL23EA1S0\nSala: s. 3.8\, bud. 75 (w planie: 3.8 75)\nŹródło: https://w
- el.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250924-37522297fea0@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250924T114000
-DTEND;TZID=Europe/Warsaw:20250924T131500
-SUMMARY:Uspfa (Zp.) · WEL22EV1S0 · s. 108\, bud. 80
-LOCATION:s. 108\, bud. 80
-DESCRIPTION:Układy stabilizacji prawdopodobieństwa fałszywego alarmu\nTy
- p: zaliczenie poprawkowe\nGrupa: WEL22EV1S0\nSala: s. 108\, bud. 80 (w pla
- nie: 108 80)\nŹródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_
- inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250928-3a4e575b5843@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250928T114000
-DTEND;TZID=Europe/Warsaw:20250928T131500
-SUMMARY:Dfsr (Zp.) · WEL23EV1S0 · s. 109\, bud. 80
-LOCATION:s. 109\, bud. 80
-DESCRIPTION:Dopplerowska filtracja sygnałów radarowych\nTyp: zaliczenie p
- oprawkowe\nGrupa: WEL23EV1S0\nSala: s. 109\, bud. 80 (w planie: 109 80)\n
- Źródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Domi
- nik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250929-d62911a4aa87@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250929T095000
-DTEND;TZID=Europe/Warsaw:20250929T112500
-SUMMARY:PtdW (Zp.) · WEL23TX1S0\, WEL23TX2S0 · s. 107\, bud. 80
-LOCATION:s. 107\, bud. 80
-DESCRIPTION:Podstawy teledetekcji PW\nTyp: zaliczenie poprawkowe\nGrupa: WE
- L23TX1S0\, WEL23TX2S0\nSala: s. 107\, bud. 80 (w planie: 107 80)\nŹródł
- o: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-UID:20250930-fc6d389df754@wel-plan
-DTSTAMP:20260921T065538Z
-DTSTART;TZID=Europe/Warsaw:20250930T133000
-DTEND;TZID=Europe/Warsaw:20250930T150500
-SUMMARY:REZ
-DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
- nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
-STATUS:CONFIRMED
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 UID:20260302-b4a1ba584c12@wel-plan
 DTSTAMP:20260921T065538Z
 DTSTART;TZID=Europe/Warsaw:20260302T114000
@@ -3779,6 +3596,189 @@ UID:20260729-865cec03d2c2@wel-plan
 DTSTAMP:20260921T065538Z
 DTSTART;TZID=Europe/Warsaw:20260729T133000
 DTEND;TZID=Europe/Warsaw:20260729T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260805-e4ec477c4770@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260805T133000
+DTEND;TZID=Europe/Warsaw:20260805T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260812-aa2efaff3469@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260812T133000
+DTEND;TZID=Europe/Warsaw:20260812T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260819-f03d6d6f2fd1@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260819T133000
+DTEND;TZID=Europe/Warsaw:20260819T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260826-5fb80bed095c@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260826T133000
+DTEND;TZID=Europe/Warsaw:20260826T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260902-961ce70566e5@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260902T133000
+DTEND;TZID=Europe/Warsaw:20260902T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260909-2b4479b9f9f4@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260909T133000
+DTEND;TZID=Europe/Warsaw:20260909T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260916-96459034199c@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260916T133000
+DTEND;TZID=Europe/Warsaw:20260916T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260917-8c157ceb6dbe@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260917T095000
+DTEND;TZID=Europe/Warsaw:20260917T112500
+SUMMARY:Rspr (Zp.) · WEL24EQ1S1\, WEL24EQ2S1\, WEL24EQ3S1 · s. 2\, bud. 4
+ 5
+LOCATION:s. 2\, bud. 45
+DESCRIPTION:Remote sensing principles\nTyp: zaliczenie poprawkowe\nGrupa: W
+ EL24EQ1S1\, WEL24EQ2S1\, WEL24EQ3S1\nSala: s. 2\, bud. 45 (w planie: 2 45)
+ \nŹródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Do
+ minik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260919-59390dcd89b7@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260919T160000
+DTEND;TZID=Europe/Warsaw:20260919T173500
+SUMMARY:Rspr (Zp.) · WEL24EX1N1 · s. 108\, bud. 80
+LOCATION:s. 108\, bud. 80
+DESCRIPTION:Remote sensing principles\nTyp: zaliczenie poprawkowe\nGrupa: W
+ EL24EX1N1\nSala: s. 108\, bud. 80 (w planie: 108 80)\nŹródło: https://w
+ el.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260923-e5000de6d5bc@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260923T133000
+DTEND;TZID=Europe/Warsaw:20260923T150500
+SUMMARY:REZ
+DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
+ nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260924-9aef1085c164@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260924T095000
+DTEND;TZID=Europe/Warsaw:20260924T112500
+SUMMARY:Ptd (Zp.) · WEL23EV1S0\, WEL23EL1S0\, WEL23EL2S0\, WEL23EL3S0\, WE
+ L23EE1S0\, WEL23EN1S0\, WEL23EA1S0 · s. 3.8\, bud. 75
+LOCATION:s. 3.8\, bud. 75
+DESCRIPTION:Podstawy teledetekcji\nTyp: zaliczenie poprawkowe\nGrupa: WEL23
+ EV1S0\, WEL23EL1S0\, WEL23EL2S0\, WEL23EL3S0\, WEL23EE1S0\, WEL23EN1S0\, W
+ EL23EA1S0\nSala: s. 3.8\, bud. 75 (w planie: 3.8 75)\nŹródło: https://w
+ el.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260924-6d308e3d1efe@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260924T114000
+DTEND;TZID=Europe/Warsaw:20260924T131500
+SUMMARY:Uspfa (Zp.) · WEL22EV1S0 · s. 108\, bud. 80
+LOCATION:s. 108\, bud. 80
+DESCRIPTION:Układy stabilizacji prawdopodobieństwa fałszywego alarmu\nTy
+ p: zaliczenie poprawkowe\nGrupa: WEL22EV1S0\nSala: s. 108\, bud. 80 (w pla
+ nie: 108 80)\nŹródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_
+ inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260928-e340df1f3872@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260928T114000
+DTEND;TZID=Europe/Warsaw:20260928T131500
+SUMMARY:Dfsr (Zp.) · WEL23EV1S0 · s. 109\, bud. 80
+LOCATION:s. 109\, bud. 80
+DESCRIPTION:Dopplerowska filtracja sygnałów radarowych\nTyp: zaliczenie p
+ oprawkowe\nGrupa: WEL23EV1S0\nSala: s. 109\, bud. 80 (w planie: 109 80)\n
+ Źródło: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Domi
+ nik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260929-efe408b2b690@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260929T095000
+DTEND;TZID=Europe/Warsaw:20260929T112500
+SUMMARY:PtdW (Zp.) · WEL23TX1S0\, WEL23TX2S0 · s. 107\, bud. 80
+LOCATION:s. 107\, bud. 80
+DESCRIPTION:Podstawy teledetekcji PW\nTyp: zaliczenie poprawkowe\nGrupa: WE
+ L23TX1S0\, WEL23TX2S0\nSala: s. 107\, bud. 80 (w planie: 107 80)\nŹródł
+ o: https://wel.wat.edu.pl/planyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:20260930-59728f746bbf@wel-plan
+DTSTAMP:20260921T065538Z
+DTSTART;TZID=Europe/Warsaw:20260930T133000
+DTEND;TZID=Europe/Warsaw:20260930T150500
 SUMMARY:REZ
 DESCRIPTION:Rezerwacja terminu (REZ)\nŹródło: https://wel.wat.edu.pl/pla
  nyzajec/{zima|lato}/dr_inz._Maly_Dominik.htm
