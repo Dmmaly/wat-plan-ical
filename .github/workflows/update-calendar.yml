@@ -29,14 +29,20 @@ jobs:
       - name: Pobierz plan i wygeneruj ICS
         run: python src/wat_plan_to_ics.py --plan "dr_inz._Maly_Dominik" --out docs/plan.ics --min-events 1
 
-      - name: Commit, jeśli plan się zmienił
+      # Bezpiecznik: GitHub wyłącza zaplanowane workflowy po 60 dniach bez aktywności w repo.
+      # Raz w miesiącu zmienia się ten plik, więc powstaje commit i licznik 60 dni się zeruje.
+      - name: Znacznik aktywności (raz w miesiącu)
+        run: date -u '+%Y-%m' > docs/heartbeat.txt
+
+      - name: Commit, jeśli plan lub znacznik się zmienił
         run: |
-          if git diff --quiet -- docs/plan.ics && git ls-files --error-unmatch docs/plan.ics >/dev/null 2>&1; then
+          git add -N docs/plan.ics docs/heartbeat.txt
+          if git diff --quiet -- docs/plan.ics docs/heartbeat.txt; then
             echo "Brak zmian w planie."
             exit 0
           fi
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/plan.ics
+          git add docs/plan.ics docs/heartbeat.txt
           git commit -m "auto: aktualizacja planu $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
