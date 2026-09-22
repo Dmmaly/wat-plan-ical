@@ -164,7 +164,10 @@ def build_grid(soup: BeautifulSoup) -> dict[int, dict[int, Cell]]:
     return grid
 
 
-def year_for(month: int, year_start: int) -> int:
+def year_for(month: int, year_start: int, summer: bool = False) -> int:
+    """Semestr letni (III-IX) w całości należy do drugiego roku akademickiego."""
+    if summer:
+        return year_start + 1
     return year_start if month >= 8 else year_start + 1
 
 
@@ -224,6 +227,7 @@ def parse_schedule(html: str) -> tuple[list[Event], dict]:
     meta = page_meta(soup)
     year_start = meta.get("year_start") or (
         datetime.now().year if datetime.now().month >= 8 else datetime.now().year - 1)
+    summer = meta.get("semester_label", "").startswith("letn")
     grid = build_grid(soup)
     rows = sorted(grid)
 
@@ -240,7 +244,7 @@ def parse_schedule(html: str) -> tuple[list[Event], dict]:
                 month = ROMAN.get(m.group(2))
                 if month:
                     try:
-                        cols[c] = datetime(year_for(month, year_start), month, int(m.group(1)))
+                        cols[c] = datetime(year_for(month, year_start, summer), month, int(m.group(1)))
                     except ValueError:
                         pass
         if cols:
