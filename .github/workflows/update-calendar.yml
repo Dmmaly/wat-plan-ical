@@ -2,7 +2,7 @@ name: Aktualizuj kalendarz WAT (ICS)
 
 on:
   schedule:
-    - cron: "0 4 * * 1"      # poniedziałek 04:00 UTC = 06:00 czasu PL (lato) / 05:00 (zima)
+    - cron: "0 5 * * *"      # codziennie 05:00 UTC = 06:00 czasu PL (zima) / 07:00 (lato)
   workflow_dispatch: {}       # ręczne uruchomienie: Actions -> Run workflow
 
 permissions:
